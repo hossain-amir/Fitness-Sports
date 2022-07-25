@@ -267,33 +267,7 @@ nav ul li a:hover{
 	color: #fff;
 	
 }
-/*.subscribe .input-group{
-	background-color: #fff;
-	border-radius: 30px;
-	max-width: 500px; 
-	margin: 10px auto;
-	padding: 5px;
-	
-}
-.subscribe .form-control{
-	border: none;
-    background: transparent;	
-}
-.subscribe .form-control:focus{
-	box-shadow: none;
-    background: transparent;	
-}
 
-.subscribe .input-group-append{
-	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
-	border-radius: 30px;
-	
-}
-.subscribe .input-group-text{
-	background: transparent;
-	border: none;
-	color: #fff;
-}*/
 .input-group{
 	width: 500px!important;
 	margin: auto;
@@ -340,3 +314,30 @@ nav ul li a:hover{
 }
 
 /*--footer end--*/
+@media screen and (max-width: 600px) {
+	#header{
+	height:50vh;
+	
+}
+	#welcome{
+	
+}
+	.feature-box{
+		margin-bottom: 10px;
+}
+	.wid{
+		width: 50%;
+		height: 50%;
+}
+.input-group{
+	width: 400px!important;
+	margin: auto;
+}
+	#footer{
+	padding:10px;
+}
+#footer .col-md-3{
+	width: 50%!important;
+}
+
+}
