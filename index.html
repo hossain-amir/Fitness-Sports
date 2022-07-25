@@ -1,0 +1,306 @@
+
+<! DOCTYPE html>
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Fitness Sports Website Design</title>
+	 
+	  <!--css for mobile-->
+	  <link rel="stylesheet" href="style.css">
+	  
+	  <!--css for bootstrap-->
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	  
+	  
+	  <!--css for google font-->
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	  
+	  <!--css for font-awesome-->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+  <!-- header start-->
+  <section id="header">
+  <img src="images/logo-white.png" class="logo"/>
+	    <!--sideNav start-->
+	      <div id="sideNav">
+				 <nav>
+					 <ul>
+						  <li>
+							<a href="#banner">HOME</a>
+						  </li>	
+						  <li>	
+							<a href="#feature">FEATURE</a>
+						  </li>
+						  <li>
+							<a href="#service">SERVICES</a>
+						  </li>
+						  <li>
+							<a href="#testimonial">TESTIMONIALS</a>
+						  </li>
+						  <li>
+							<a href="#footer">MEET US</a>
+						  </li>
+					 </ul>
+				 </nav>
+		  </div>
+	 <!--sideNav end-->
+	 
+	 <!--manuBtn start-->	  
+		  <div id="menuBtn">
+		       <img src="images/menu.png" id="menu">
+		  
+		  </div>
+		  <script>
+		       var menuBtn = document.getElementById("menuBtn")
+		       var sideNav = document.getElementById("sideNav")
+		       var menu = document.getElementById("menu")
+			   sideNav.style.right = "-250px";
+			   menuBtn.onclick = function(){
+			         if(sideNav.style.right == "-250px"){
+					    sideNav.style.right = "0";
+						menu.src = "images/close.png";
+					 }
+					 else{
+					    sideNav.style.right = "-250px";
+						menu.src = "images/menu.png";
+					 
+					 }
+			   }
+			   
+		  </script>
+		  
+	  
+	  <!--manuBtn end-->
+  </section>		
+   <!-- header end-->
+    <!--welcome text start-->
+	      <section id="welcome">
+			  <div class="container">
+				  <div class="welcome text-center">
+					  <h1>Create Website With Animation</h1>
+					  <p>Please! Like This Website And Visit. Don't forget to Visit My Website.</p>
+					  <button type="submit" class="btn home-btn"> Visit</button>
+				  </div>
+			  </div>
+		  
+		  </section>
+    <!--welcome text end-->
+	
+    <!--about start-->
+	      <section id="about">
+			  <div class="container">
+				  <div class="row">
+					  <div class="col-md-6 text-center">
+					    <img src="images/run.jpg" class="img-fluid">
+					  </div>
+					  <div class="col-md-6 text-justify">
+					    <h3>Knowledge, Skills & Hard Work</h3>
+					    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					  </div>
+					  <div class="col-md-6 text-justify">
+					    <h3>Work Hard In Silence</h3>
+					    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					  </div>
+					  <div class="col-md-6">
+					    <div class="embed-responsive embed-responsive-16by9">
+						   <iframe width="560" height="315" 
+						   src="https://www.youtube.com/embed/8a1-_0_NS_A" 
+						   title="YouTube video player" frameborder="0" 
+						   allow="accelerometer; autoplay; clipboard-write; 
+						   encrypted-media; gyroscope; picture-in-picture" 
+						   allowfullscreen></iframe>
+						</div>
+					  </div>
+			  </div>
+			  </div>
+		  </section>	  
+    <!--about end-->
+	
+    <!--services start-->
+	       <section id="services">
+			  <div class="container">
+				  <div class="row">
+					  <div class="col-md-4">
+					    <img src="images/mma.png">
+						<h4>Mixed Martial Arts</h4>
+						 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					  </div>
+					  <div class="col-md-4">
+					    <img src="images/gym.png">
+						<h4>Gym</h4>
+						 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					  </div>
+					  <div class="col-md-4">
+					    <img src="images/boxing.png">
+						<h4>Boxing</h4>
+						 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					  </div>
+			      </div>		  
+			  </div>		  
+		  </section>			  
+    <!--services end-->
+	<!--feature start-->
+	       <section id="feature">
+			  <div class="container">
+				  <div class="row">
+					  <div class="col-md-6">
+					    <img src="images/feature.png" class="img-fluid">	
+					  </div>
+					  <div class="col-md-6">
+						  <div class="feature-box">
+							  <div class="feature-left">
+								<i class="fa-solid fa-trophy"></i>
+								 
+							  </div>
+							  <div class="feature-right">
+								<h4>Certified Trainers</h4>
+								 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy .</p>
+							  </div>
+							  
+						  </div>
+						  <div class="feature-box">
+							  <div class="feature-left">
+								<i class="fa-solid fa-heart-pulse"></i>
+								 
+							  </div>
+							  <div class="feature-right">
+								<h4>Free Consultation</h4>
+								 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy .</p>
+							  </div>
+							  
+						  </div>
+						  <div class="feature-box">
+							  <div class="feature-left">
+								<i class="fa-solid fa-clock"></i>
+							  </div>
+							  <div class="feature-right">
+								<h4>Flexible Time</h4>
+								 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy .</p>
+							  </div>
+							  
+						  </div>
+						  
+					  </div>					  
+			      </div>		  
+			  </div>		  
+		  </section>			  
+    <!--feature end-->
+	
+	<!--testimonials start-->
+	       <section id="testimonials">
+			  <div class="container">
+				  <h1 class="text-center">Meet Our Users</h1>
+				  <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>
+					 Lorem Ipsum has been the industry's standard</p>
+				  <div class="row">
+					  <div class="col-md-4">			   
+						<p class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer.
+						<br/><i class="fa-brands fa-twitter"></i><span>@username</span></p>
+						<img src="images/user1.jpg">
+					  </div>
+					  <div class="col-md-4 middle">			   
+						<p class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer.
+						<br/><i class="fa-brands fa-twitter"></i><span>@username</span></p>
+						<img src="images/user2.jpg">
+					  </div>
+					  <div class="col-md-4">			   
+						<p class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer.
+						<br/><i class="fa-brands fa-twitter"></i><span>@username</span></p>
+						<img src="images/user3.jpg">
+					  </div>
+					  
+			      </div>		  
+			  </div>		  
+		  </section>			  
+    <!--testimonials end-->
+	
+	<!--subscribe start-->
+	       <section id="subscribe">
+			  <div class="container">
+			     <div class="subscribe text-center">
+				  <h3 class="text-center">Join For Free Trial Now!</h3>
+				  <p class="text-center">Subscribe Our Newsletter and Get 30 Days Free Trial!</p>
+				  <!--<div class="input-group">
+				    <input type="email" class="form-control" placeholder="Email">
+				  
+				  <div class="input-group-append">
+				    <button type="submit" class="input-group-text btn">Subscribe</button>
+				  </div>
+				  </div>-->
+				  <div class="input-group text-center mb-3">
+					  <input type="text" class="form-control" placeholder="Email">
+					  <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+				  </div>
+			     </div>	  				  	  
+			  </div>		  
+		  </section>			  
+    <!--subscribe end-->
+
+	<!--footer start-->
+	       <section id="footer">
+			  <div class="container">
+			     <div class="row">
+				  <div class="col-md-3">
+				    <img src="images/logo.png" class="footer-logo">
+					<p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						when an unknown printer.</p>
+				  </div>
+				  <div class="col-md-3">
+					  <h1>Features</h1>
+					  <p>Certified Trainers</p>
+					  <p>Free Consultation</p>
+					  <p>Flexible Time</p>
+					  <p>30 Days Free Trial</p>
+				  </div>
+				  <div class="col-md-3">
+					  <h1>Quick Contact</h1>
+					  <p><i class="fa-solid fa-phone"></i> +0 1756425462</p>
+					  <p><i class="fa-solid fa-envelope"></i> Contact@website.com</p>
+					  <p><i class="fa-solid fa-home"></i> Abc Road, Bci Complex</p>
+					  <p class="city">City, Country</p>		  
+				  </div>
+				  <div class="col-md-3">
+					  <h1>Follow Us On</h1>
+					  <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+					  <p><i class="fa-brands fa-youtube"></i> youtube</p>
+					  <p><i class="fa-brands fa-linkedin"></i> Linekdin</p>
+					  <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+					  		  
+				  </div>
+			     </div>
+				 <hr/>
+				 <p class="copyright">Copyright</p>
+				 
+			  </div>		  
+		  </section>	 
+		
+    <!--footer end-->
+  </body>
+</html>  
